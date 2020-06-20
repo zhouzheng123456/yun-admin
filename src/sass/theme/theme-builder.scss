@@ -1,0 +1,21 @@
+@import '../variables';
+@each $name,$color in $theme-colors {
+  .md-#{$name}-scheme {
+    .v-card__title.b-left {
+      border-left: 3px solid map-get($color, bg);
+      border-top-left-radius: unset !important;
+      font-size: 1.25rem;
+      padding:0 0 0 1rem;
+      font-weight: 600;
+    }
+    .uploader-btn{
+      .v-icon{
+        color: map-get($color, clr);
+        margin-left: 0;
+      }
+      font-size: 14px;
+      color: map-get($color, clr);
+      border-radius: 5px;
+    }
+  }
+}

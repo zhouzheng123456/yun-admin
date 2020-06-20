@@ -1,0 +1,78 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "ancestors": "0",
+      "children": [
+        {
+          "ancestors": "0,100",
+          "children": [
+            {
+              "ancestors": "0,100,101",
+              "createBy": "1",
+              "createTime": "2018-03-16 11:33:00",
+              "delFlag": "0",
+              "deptId": 103,
+              "deptName": "研发部门",
+              "email": "1264415695@qq.com",
+              "leader": "湮灭",
+              "orderNum": 1,
+              "parentId": 101,
+              "phone": "15888888888",
+              "remark": "",
+              "status": "0",
+              "updateBy": "1",
+              "updateTime": "2018-03-16 11:33:00"
+            },
+            {
+              "ancestors": "0,100,101",
+              "createBy": "1",
+              "createTime": "2018-03-16 11:33:00",
+              "delFlag": "0",
+              "deptId": 104,
+              "deptName": "市场部门",
+              "email": "1264415695@qq.com",
+              "leader": "湮灭",
+              "orderNum": 2,
+              "parentId": 101,
+              "phone": "15888888888",
+              "remark": "",
+              "status": "0",
+              "updateBy": "1",
+              "updateTime": "2018-03-16 11:33:00"
+            }
+          ],
+          "createBy": "1",
+          "createTime": "2018-03-16 11:33:00",
+          "delFlag": "0",
+          "deptId": 101,
+          "deptName": "深圳总公司",
+          "email": "1264415695@qq.com",
+          "leader": "湮灭",
+          "orderNum": 1,
+          "parentId": 100,
+          "phone": "15888888888",
+          "remark": "",
+          "status": "0",
+          "updateBy": "1",
+          "updateTime": "2019-06-11 13:02:27"
+        }
+      ],
+      "createBy": "1",
+      "createTime": "2018-03-16 11:33:00",
+      "delFlag": "0",
+      "deptId": 100,
+      "deptName": "云科技",
+      "email": "1264415695@qq.com",
+      "leader": "湮灭",
+      "orderNum": 0,
+      "parentId": 0,
+      "phone": "15888888888",
+      "remark": "",
+      "status": "0",
+      "updateBy": "1",
+      "updateTime": "2019-05-30 16:58:32"
+    }
+  ],
+  "msg": "success"
+}

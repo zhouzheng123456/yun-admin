@@ -1,0 +1,33 @@
+//圆角 br-$i
+@for $i from 1 through 24 {
+  .br-#{$i} {
+    border-radius:(2px * $i) !important;
+  }
+}
+
+.box-shadow{
+  box-shadow: 0 6px 0 0 rgba(0,0,0,.01), 0 15px 32px 0 rgba(0,0,0,.06)!important;
+}
+
+.link-type,
+.link-type:focus {
+  color: #337ab7;
+  cursor: pointer;
+  text-decoration: none;
+  &:hover {
+    color: rgb(32, 160, 255);
+  }
+}
+
+.ck-content pre code {
+  box-shadow: none !important;
+  color: #353535;
+  font-weight: 500;
+  font-family: Monaco,Menlo,Consolas,"Roboto Mono","Courier New","Ubuntu Mono",monospace;
+  font-size: .866666em;
+  white-space: pre-wrap;
+  &::before,
+  &::after {
+    content: none;
+  }
+}

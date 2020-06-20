@@ -1,0 +1,60 @@
+{
+  "code": 200,
+  "data": {
+    "current": 1,
+    "orders": [],
+    "pages": 1,
+    "records": [
+      {
+        "avatar": "http://thirdwx.qlogo.cn/mmopen/vi_32/AotJDTonyzTnmknJnk3C22uvKvKC8hTegMmbpj8sS8Gh5LC4O8ibfMMP3zvvv5gDD0M4m8TAdBCab8XL4V6bQvg/132",
+        "createBy": "1",
+        "createTime": "2017-06-20 15:12:16",
+        "delFlag": "0",
+        "deptId": 103,
+        "email": "1264415695@qq.com",
+        "loginDate": null,
+        "loginIp": "",
+        "maOpenId": null,
+        "password": null,
+        "phonenumber": "17681239053",
+        "realName": "超级管理员",
+        "remark": "",
+        "salt": null,
+        "sex": "1",
+        "status": "0",
+        "updateBy": null,
+        "updateTime": null,
+        "userId": 1,
+        "userType": null,
+        "username": "admin"
+      },
+      {
+        "avatar": "https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif?imageView2/1/w/80/h/80",
+        "createBy": "1",
+        "createTime": "2019-11-25 03:02:39",
+        "delFlag": "0",
+        "deptId": 103,
+        "email": "111@qq.com",
+        "loginDate": null,
+        "loginIp": "",
+        "maOpenId": null,
+        "password": null,
+        "phonenumber": "17681234441",
+        "realName": "系统用户",
+        "remark": "测试",
+        "salt": "",
+        "sex": "1",
+        "status": "0",
+        "updateBy": null,
+        "updateTime": null,
+        "userId": 4,
+        "userType": null,
+        "username": "system"
+      }
+    ],
+    "searchCount": true,
+    "size": 10,
+    "total": 3
+  },
+  "msg": "success"
+}
